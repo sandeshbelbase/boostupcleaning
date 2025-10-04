@@ -1,0 +1,54 @@
+
+@media (max-width: 768px) {
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  .logo button{
+    display: block;
+  }
+  .nav-wrap{
+    display: none;
+  } 
+  button svg{
+    color :#fff;
+    font-size: 32px;
+  }
+  .offcanvas{
+    width: 75% !important;
+    padding: 0px 15px;
+  }
+  .nav_bar_toggle ul {
+   margin-top:18%;
+  }
+
+
+.nav_bar_toggle ul li a{
+    color: #1E7E51;
+    text-decoration: none;
+}
+  .top-contact{
+    display: none;
+  }
+  .top-head{
+    padding: 10px 0px;
+  }
+  .abt-wrapper{
+    padding: 24px 0px;
+  }
+  .abt-wrapper::before{
+    display: none;
+  }
+  .service-box{
+    padding: 16px;
+  }
+  .test-wrap{
+    padding: 30px 0px;
+  }
+  .footer-bottom img{
+    height: 20px;
+    width: max-content;
+    margin-top: 10px;
+  }
+}
