@@ -96,9 +96,12 @@ img {
   float: right;
   padding: 20px 0px;
 }
+.top-contact ul{
+  display: flex !important;
+  column-gap: 28px;
+}
 .top-contact ul li{
-  float: left;
-    width: 220px;
+  display: flex ;
 }
 .top-contact ul li a{
   color: #fff;
