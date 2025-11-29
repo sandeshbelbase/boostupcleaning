@@ -16,17 +16,80 @@
     font-size: 32px;
   }
   .offcanvas{
-    width: 75% !important;
-    padding: 0px 15px;
+    width: 60% !important;
+    position: absolute;
   }
-  .nav_bar_toggle ul {
-   margin-top:18%;
-  }
+ .nav_bar_toggle {
+    background-color: #1f7e51; /* your major brand color */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 2px 0 12px rgba(0,0,0,0.3);
+    font-family: Arial, sans-serif;
+}
 
+/* Lists */
+.nav_bar_toggle ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
 
-.nav_bar_toggle ul li a{
-    color: #1E7E51;
+.nav_bar_toggle ul li {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Links styling */
+.nav_bar_toggle ul li a {
+    color: #ffffff;
     text-decoration: none;
+    font-weight: 500;
+    padding: 6px 10px;
+    border-radius: 4px;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.nav_bar_toggle ul li a:hover {
+    background-color: #17a34d; /* slightly lighter green */
+}
+
+/* Contact info section */
+.nav_bar_toggle ul:last-child {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.nav_bar_toggle ul:last-child li a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Optional label for contact info */
+.nav_bar_toggle ul:last-child::before {
+    content: "Contact Us";
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Scrollbar for long menus on mobile */
+.nav_bar_toggle::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav_bar_toggle::-webkit-scrollbar-thumb {
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 3px;
+}
+
+.nav_bar_toggle::-webkit-scrollbar-track {
+    background-color: transparent;
 }
   .top-contact{
     display: none;
